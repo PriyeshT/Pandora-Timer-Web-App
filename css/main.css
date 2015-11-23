@@ -1,0 +1,40 @@
+body {
+  background-color: #333333;
+  font-family: Lato, sans-serif;
+}
+
+h1, div {
+  color: #ffffff;
+}
+
+.pomodoro {
+    text-align: center;
+    vertical-align: middle;
+    margin-top: 15px; 
+    font-size: 48px;
+}
+
+.menu-button-pomodoro{
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 14px;
+    text-align: center;
+    word-spacing: 0px;
+    background-color: #2BA6CB;
+    color: white;
+    background-position: 0% 0%;
+    height: 17px;
+    width: 850px;
+    border: 1px solid #1E728C;
+    padding: 10px 20px 11px 20px
+}
+
+
+.box {
+    width: 700px;
+    height: 150px;
+    padding: 25px;
+    margin: 25px;
+    margin-left: 305px;
+     
+}

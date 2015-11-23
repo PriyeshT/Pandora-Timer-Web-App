@@ -1,0 +1,33 @@
+<html>
+<head>
+    <title>Pandora Timer</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" type="text/css">
+    <link rel="stylesheet" href="css/main.css" type="text/css">
+</head>
+<body>
+    <h1 class="text-center">Pomodoro Timer</h1><br>
+  
+  <div class="row">
+  <div class="col-md-4 text-center"><a href="#" class="menu-button-pomodoro active" id="pomodoro" type="submit" value="Pomodoro">Pomodoro</a></div>
+  <div class="col-md-4 text-center"><a href="#" class="menu-button-pomodoro" id="short_break" type="submit" value="Pomodoro">Short Break</a></div>
+  <div class="col-md-4 text-center"><a href="#" class="menu-button-pomodoro" id="long_break" type="submit" value="Pomodoro">Long Break</a></div>
+</div>
+  
+  <div class="box text-center">
+        <p id="timer-mins" class="pomodoro">
+          <span class="glyphicon glyphicon-minus text-center" id="minus"></span>
+            <span id="mins">25</span>
+            <span id="sep">:</span>
+            <span id="secs">00</span>
+          <span class="glyphicon glyphicon-plus text-center" id="plus"></span>
+        </p>
+        <span><button id="start" class="btn btn-primary">Start</button></span> 
+        <span><button id="stop" class="btn btn-danger">Stop</button></span>
+        <span><button id="reset" class="btn btn-default">Reset</button></span>
+    
+   </div>
+    
+    <script src="//code.jquery.com/jquery-1.11.3.min.js"></script>
+    <script src="js/app.js" type="text/javascript"></script>
+</body>
+</html>
